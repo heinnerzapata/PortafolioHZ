@@ -1,0 +1,22 @@
+{
+  "name": "portafoliohz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinnerzapata/PortafolioHZ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinnerzapata/PortafolioHZ/issues"
+  },
+  "homepage": "https://github.com/heinnerzapata/PortafolioHZ#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

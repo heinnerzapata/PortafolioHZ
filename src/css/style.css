@@ -1,0 +1,592 @@
+body{
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+#header{
+
+  color:black;
+
+}
+
+#mainSection{
+  background-color:white;
+  color: white;
+}
+
+#footer{
+  background-color: #2d2d2d;
+  color: white;
+}
+
+
+#imgProfile {
+  transform: rotate(30deg);
+}
+
+
+#imgHeader{
+
+  width: 10%;
+
+}
+
+
+.columna{
+  border: solid 1px red;
+}
+
+.centered-div
+{
+  margin: 0 auto;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+.demo-link {
+  font-size: 14px;
+}
+
+.demo-link:visited {
+  color: black;
+}
+
+/* selected link */
+a:hover {
+  color: red;
+}
+
+i:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+#header{
+  background-image: url("../images/back2.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  min-height: 500px;
+  color:white;
+}
+
+#header-overlay{
+  position: absolute;
+  top:0px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+#footer{
+
+  background-image: url("../images/back1.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  min-height: 300px;
+  color:white;
+
+}
+
+#footer-overlay{
+  position: absolute;
+  top:0px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+#footer .col-xs{
+  padding: 10px;
+}
+
+#footer .row{
+  min-height: 300px;
+}
+
+#cardContainer{
+
+  height: 100vh;
+
+}
+
+#cardContainer #card{
+
+  background-color: rgba(0,0,0,0.6);
+
+  border-radius: 8px;
+  color:black;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  overflow-y: auto;
+
+  backdrop-filter: blur(3px);
+
+}
+
+#cardInfo h1,h5{
+  font-weight: bold;
+  color: white;
+}
+
+.padding{
+  padding: 20px;
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	}
+
+#scrollIndicator{
+
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  top:90vh;
+  left:90%;
+  text-align: center;
+  color:black;
+  z-index: 50;
+
+}
+
+#scrollIndicator a:hover{
+  cursor: pointer;
+}
+
+#menu-container .nav-item{
+  border:solid 1px rgba(0,0,0,0);
+  border-radius: 3px;
+  padding: 3px;
+}
+
+#toggelerMenu{
+ height: 80px;
+ width: 80px;
+
+}
+
+#menu-container .nav-item:hover{
+  cursor: pointer !important;
+  color:white;
+
+
+}
+
+.active{
+  font-weight: bold;
+}
+
+.nav-link{
+  color:white !important;
+  text-de
+}
+
+.btn-standar{
+  background-color: rgba(0,0,0,0);
+  border:solid 1px white;
+
+}
+
+.btn-standar:hover{
+ background-color: rgba(0,0,0,0.8);
+ border:solid 1px white;
+}
+
+.btn-standar:active{
+  background-color: rgba(0,0,0,0);
+  border:solid 1px white;
+}
+
+
+
+
+
+.customMediaNav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.customMediaNav li{
+  display: inline;
+  margin-left: 40px;
+
+}
+
+.customMediaNav li{
+  color:white;
+}
+
+.customMediaNav li:hover{
+  color:#2d2d2d;
+}
+
+.customMediaNav a:{
+  color:white;
+}
+
+.customMediaNav a:hover{
+  cursor: pointer;
+}
+
+.skillContainerParent{
+  overflow-x: auto;
+}
+
+.skillContainer{
+
+ display: inline-flex; /* or inline-flex */
+ flex-direction: row;
+
+}
+
+.skill{
+
+  width: 150px;
+  height: 160px;
+  margin: 10px;
+
+}
+
+
+.headerBarBlack{
+  background-color: rgba(0,0,0,0.85);
+}
+
+
+#habilitiesSection{
+  background-color: #0066FF;
+  color:white;
+  z-index: 100;
+  padding: 20px;
+}
+
+#habilitiesSection ul{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.imgHabilitySection{
+  max-width: 100px;
+}
+
+.imgHabilitySection path {
+   fill:white;
+}
+
+.objName{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.objLoadContainer{
+  color:white;
+  border:solid 1px white;
+  margin:0;
+  padding: 0;
+}
+
+.titleSection{
+  font-size: 65px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+#profile-container .titleSection{
+  color:#2d2d2d;
+}
+
+#experienceSection .titleSection{
+  color:#2d2d2d;
+}
+
+#profile-container p{
+ text-align: justify;
+
+}
+
+#profile-text-container{
+  color:#2d2d2d;
+  font-size: 25px;
+}
+
+.objLoad{
+  background-color: #00FF04;
+  height: 10px;
+}
+
+#experienceSection{
+  /*background-color: #0066ff;*/
+}
+
+#experienceSection .card{
+  background-color: #0066ff;
+  color:white;
+}
+
+/*---- Laptop -----------*/
+/*
+@media screen
+  and (min-device-width: 400px)
+  and (max-device-width: 1000px){
+
+    #userName{
+      margin-top:0vh;
+    }
+
+    #header{
+      height:100vh;
+    }
+
+    #cardContainer #card{
+     height:65vh;
+     min-height: 500px;
+    }
+
+    #header-overlay{
+      min-height: 500px;
+      height: 100vh;
+
+    }
+
+    #header{
+      height:100vh;
+    }
+
+  }
+  */
+
+
+@media screen
+  and (min-device-width: 769px)
+  and (max-device-width: 4000px){
+
+    #userName{
+      margin-top:20vh;
+    }
+
+    #cardContainer #card{
+     height:65vh;
+     min-height: 500px;
+    }
+
+    #header-overlay{
+      min-height: 500px;
+      height: 100vh;
+
+    }
+
+    #header{
+      height:100vh;
+    }
+
+  }
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 770px)
+  and (orientation : portrait) {
+
+
+    #cardContainer #card{
+     height:65vh;
+    }
+
+
+    #cardContainer #card{
+     height:65vh;
+     min-height: 500px;
+    }
+
+    #header-overlay{
+      min-height: 500px;
+      height: 100vh;
+
+    }
+
+    #header{
+      height:100vh;
+    }
+
+
+
+   }
+
+  @media screen
+  and (min-device-width : 300px)
+  and (max-device-width : 770px)
+  and (orientation : landscape) {
+
+    #header-overlay{
+      min-height: 800px;
+      height: 800px;
+    }
+
+    #cardContainer #card{
+
+      height: 650px;
+
+    }
+
+    #header{
+      height:800px;
+    }
+
+  }
+
+/*---- Mobile ------------*/
+/*
+@media only screen
+  (orientation: landscape) {
+}
+
+     #cardContainer #card{
+      height:65vh;
+     }
+
+
+     #cardContainer #card{
+      height:65vh;
+      min-height: 500px;
+     }
+
+     #header-overlay{
+       min-height: 500px;
+       height: 100vh;
+
+     }
+
+     #header{
+       height:100vh;
+     }
+
+}
+*/
+
+/*
+@media only screen
+  (orientation: portrait) {
+}
+
+  #header-overlay{
+    min-height: 800px;
+    height: 800px;
+  }
+
+  #cardContainer #card{
+
+    height: 650px;
+
+  }
+
+  #header{
+    height:800px;
+  }
+
+}
+*/
+
+
+/* Extra Small */
+@media(max-width:576px){
+
+  #imgProfile{
+    height: 150px;
+    width: 150px;
+  }
+
+
+
+  #menu-container .nav-item:hover{
+    border:solid 1px rgba(0,0,0,0);
+  }
+
+  #menu-container li{
+    width: 100%;
+  }
+
+}
+
+/* Small */
+@media(min-width:200px) and (max-width:992px){
+
+  #imgProfile{
+    height: 300px;
+    width: 300px;
+  }
+
+  #navMenu li a{
+    font-size: 60px;
+  }
+
+
+
+  #menu-container .nav-item:hover{
+    border:solid 1px rgba(0,0,0,0);
+  }
+
+  #menu-container li{
+    width: 100%;
+  }
+
+
+
+}
+
+/* Medium */
+@media(min-width:993px) and (max-width:1200px){
+
+  #imgProfile{
+    height: 250px;
+    width: 250px;
+  }
+
+
+  #navMenu li a{
+    font-size: 60px;
+  }
+
+   #menu-container .nav-item:hover{
+    border:solid 1px white;
+  }
+
+
+
+}
+
+/* Large */
+@media(min-width:1201px){
+
+  #imgProfile{
+    height: 300px;
+    width: 300px;
+  }
+
+  #menu-container .nav-item:hover{
+    border:solid 1px white;
+  }
+
+
+
+}
