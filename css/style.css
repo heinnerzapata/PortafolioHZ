@@ -21,6 +21,10 @@ body{
 }
 
 
+#imgProfile {
+  transform: rotate(30deg);
+}
+
 
 #imgHeader{
 
@@ -32,12 +36,34 @@ body{
 .columna{
   border: solid 1px red;
 }
-C
+
 .centered-div
 {
   margin: 0 auto;
 }
 
+/* visited link */
+a:visited {
+  color: white;
+}
+
+.demo-link {
+  font-size: 14px;
+}
+
+.demo-link:visited {
+  color: black;
+}
+
+/* selected link */
+a:hover {
+  color: red;
+}
+
+i:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
 
 #header{
   background-image: url("../images/back2.jpg");
@@ -104,6 +130,7 @@ C
   margin-bottom: 5vh;
   overflow-y: auto;
 
+  backdrop-filter: blur(3px);
 
 }
 
